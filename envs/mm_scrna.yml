@@ -1,0 +1,29 @@
+name: mm_scRNA
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3.3
+  - r-seurat=5.0.0
+  - r-harmony
+  - r-ggplot2
+  - r-dplyr
+  - r-data.table
+  - r-patchwork
+  - r-ggrepel
+  - r-future
+  - bioconductor-mast
+  - bioconductor-fgsea
+  - bioconductor-msigdbr
+  - bioconductor-scdblfinder
+  - bioconductor-infercnv
+  - bioconductor-monocle3
+  - r-cellchat
+  - r-glmgampoi
+  - r-ape
+  - r-phangorn
+  - bioconductor-complexheatmap
+  - r-circlize
+  - r-ggalluvial
+EOF
